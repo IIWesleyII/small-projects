@@ -1,4 +1,5 @@
-def print_array(arr):
-    return ','.join([str(x) for x in arr])
+def interesting( *well):
+    for x in well:
+        print(f'{x}')
 
-print(print_array([1,2,3,4,5]))
+interesting('well', 'well' , 'well')
