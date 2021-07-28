@@ -14,4 +14,8 @@ def binary_search(lst, target):
             right = mid - 1  
     return -1
 target = 10 
-print(binary_search([ 2, 3, 4, 10, 40 ],  target))
+#print(binary_search([ 2, 3, 4, 10, 40 ],  target))
+
+lst = [2,3,4,5,6,7,8]
+target = 3
+print(lst.index(3))

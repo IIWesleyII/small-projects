@@ -2,19 +2,19 @@
 
 
 # Fn =Fn-1 + Fn-2
-# returns fib number of n
+# returns fib number of n in O(2^n)
+# sloooooooooooooooow
 def fib(n):
     
-    if n == 0:
+    if n <= 0:
         return 0
-    elif n== 1 or n==2:
+    elif n== 1:
         return 1
-    else:
-        return (fib(n-1) + fib(n-2))
+    return (fib(n-1) + fib(n-2))
 
-#print(fib(30))
+#print(fib(58))
 
-#returns fib list
+#returns fib list in O(n)
 def fib_lst(n):
     lst = [0,1]
     i = 1
@@ -23,4 +23,4 @@ def fib_lst(n):
         i += 1
     return lst
 
-print(fib_lst(9))
+print(fib_lst(5))
