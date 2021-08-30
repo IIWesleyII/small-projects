@@ -1,5 +1,3 @@
-def interesting( *well):
-    for x in well:
-        print(f'{x}')
+s = 'ksaflkjfla%'
+print(list(s).pop())
 
-interesting('well', 'well' , 'well')
